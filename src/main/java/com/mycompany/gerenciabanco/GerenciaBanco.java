@@ -6,6 +6,17 @@ class ContaBancaria {
     private String sobrenome;
     private String cpf;
     private double saldo;
+    
+    public ContaBancaria(String nome, String sobrenome, String cpf) {
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+        this.cpf = cpf;
+        this.saldo = 0.0;
+    }
+    
+    public double consultarSaldo() {
+        return saldo;
+    }
 }
 
 public class GerenciaBanco {
