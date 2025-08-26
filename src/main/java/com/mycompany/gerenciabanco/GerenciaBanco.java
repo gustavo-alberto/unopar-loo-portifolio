@@ -17,6 +17,12 @@ class ContaBancaria {
     public double consultarSaldo() {
         return saldo;
     }
+    
+    public void depositar(double valor) {
+        saldo += valor;
+        System.out.println("Depósito de R$ + " + valor + "realizado com sucesso.");
+    }
+    
 }
 
 public class GerenciaBanco {
