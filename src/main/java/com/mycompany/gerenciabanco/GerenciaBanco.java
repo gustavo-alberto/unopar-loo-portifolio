@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.gerenciabanco;
 
-/**
- *
- * @author Gustavo
- */
+
+class ContaBancaria {
+    private String nome;
+    private String sobrenome;
+    private String cpf;
+    private double saldo;
+}
+
 public class GerenciaBanco {
 
     public static void main(String[] args) {
