@@ -23,6 +23,14 @@ class ContaBancaria {
         System.out.println("Depósito de R$ + " + valor + "realizado com sucesso.");
     }
     
+    public void sacar(double valor) {
+        if (saldo>=valor) {
+            saldo -=valor;
+            System.out.println("Saque de R$" + valor + "realizado com sucesso.");
+        } else {
+            System.out.println("Saldo insuficiente para realizar o saque.");
+        }
+    }
 }
 
 public class GerenciaBanco {
